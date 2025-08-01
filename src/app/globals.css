@@ -1,0 +1,50 @@
+@import "tailwindcss";
+/* Add this to globals.css or component style */
+.blog-form {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 24px;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  font-family: "Segoe UI", sans-serif;
+}
+
+.blog-form input,
+.blog-form textarea {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: border-color 0.3s ease;
+}
+
+.blog-form input:focus,
+.blog-form textarea:focus {
+  border-color: #0070f3;
+  outline: none;
+}
+
+.blog-form button {
+  background-color: #0070f3;
+  color: white;
+  padding: 12px 18px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.blog-form button:hover {
+  background-color: #005ad3;
+}
+
+.blog-form p {
+  margin-top: 16px;
+  font-weight: 500;
+  color: #444;
+}
